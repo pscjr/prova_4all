@@ -12,7 +12,7 @@ public class BasePage {
 	
 	public void clicarbotaomenu() {
 		
-		getDriver().findElement(By.xpath("//body/div[@id='root']/div[2]/div[1]/img[1]")).click();;
+		getDriver().findElement(By.xpath("//img[@class='sc-iAyFgw mBXxg']")).click();;
 	}
 	
 	public void clicaropcaodoces() {
@@ -40,7 +40,7 @@ public class BasePage {
 	
 	public void acessarCarrinho() {
 		
-		getDriver().findElement(By.xpath("//body/div[@id='root']/div[1]/div[1]/button[1]/img[1]")).click();
+		getDriver().findElement(By.xpath("//button[@id='cart-btn']")).click();
 		
 	}
 	
